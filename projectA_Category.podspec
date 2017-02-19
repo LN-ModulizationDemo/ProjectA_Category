@@ -24,8 +24,8 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/ning.lennon@gmail.com/projectA_Category'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ning.lennon@gmail.com' => 'lennon@memeboxglobal.com' }
-  s.source           = { :git => 'https://github.com/ning.lennon@gmail.com/projectA_Category.git', :tag => s.version.to_s }
+  s.author           = { 'Lennon' => 'ning.lennon@gmail.com' }
+  s.source           = { :git => 'https://github.com/LN-ModulizationDemo/ProjectA_Category.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'CTMediator'
 end
