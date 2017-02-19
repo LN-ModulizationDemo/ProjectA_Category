@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ning.lennon@gmail.com/projectA_Category'
+  s.homepage         = 'https://github.com/LN-ModulizationDemo/ProjectA_Category'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Lennon' => 'ning.lennon@gmail.com' }
