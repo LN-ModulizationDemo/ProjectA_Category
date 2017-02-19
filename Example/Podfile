@@ -1,0 +1,6 @@
+use_frameworks!
+target 'projectA_Category_Tests' do
+  pod 'projectA_Category', :path => '../'
+  
+  
+end
