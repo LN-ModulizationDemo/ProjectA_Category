@@ -12,4 +12,8 @@
 
 @interface CTMediator (ProjectA)
 - (UIViewController *)A_aViewController;
+
+- (void)shareWithInfo:(NSDictionary *)shareInfo
+             callBack:(void(^)(BOOL Success,NSString *message))callBack;
+
 @end

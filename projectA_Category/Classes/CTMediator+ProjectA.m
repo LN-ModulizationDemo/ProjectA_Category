@@ -12,4 +12,10 @@
 - (UIViewController *)A_aViewController{
     return [self performTarget:@"A" action:@"viewController" params:nil shouldCacheTarget:NO];
 }
+- (void)shareWithInfo:(NSDictionary *)shareInfo callBack:(void (^)(BOOL,NSString *))callBack{
+    [self performTarget:@"A"
+                 action:@"share"
+                 params:@{@"shareInfo":shareInfo,@"callBack":callBack}
+      shouldCacheTarget:NO];
+}
 @end
